@@ -26,14 +26,12 @@
     font-family: "Poppins", sans-serif;
     color: var(--primary-text);
 }
-
 html{
     background-color: var(--primary-color);
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
 }
-
 body {
     overflow-x: hidden;
     background-color: var(--primary-color);
@@ -44,7 +42,6 @@ body {
     width: 1140px;
     margin: 0 auto;
 }
-
 .flex{
     display: flex;
     flex-direction: row;
@@ -61,22 +58,18 @@ body {
     width: 100%;
     top: 0;
 }
-
 header section{
     justify-content: space-between;
 }
-
 #logo{
    width: 400px; 
    height: auto;
    letter-spacing: 2px;
 }
-
 #menu{
     display: flex;
     gap: 15px;
 }
-
 #cv{
     color: var(--primary-text);
     background-color: var(--principal-color);
@@ -85,11 +78,9 @@ header section{
     padding: 5px 15px;
     letter-spacing: 1px;
 }
-
 a{
    transition: all .5s;
 }
-
 a:hover{
     color: var(--hover-color);
 }
@@ -102,7 +93,6 @@ a:hover{
     overflow: hidden;
     filter: blur(20px);
 }
-
 #video-inicio video {
     position: absolute;
     top: 0;
@@ -111,7 +101,6 @@ a:hover{
     min-height: 100vh;
     z-index: 1; 
 }
-
 #conteudo-inicio{
     position: absolute;
     top: 50%;
@@ -120,7 +109,6 @@ a:hover{
     text-align: center;
     transform: translate(-50%, -50%);
 }
-
 spam{
     color: var(--principal-color);
 }
@@ -136,7 +124,6 @@ spam{
     box-shadow: #58a6ff 0px 5px 15px;
     scroll-margin-top: 120px;
 }
-
 .section-estrutura h2 {
     text-align: center;
     font-size: 35px;
@@ -149,18 +136,15 @@ spam{
 #estrutura-sobre{
     padding: 40px;
 }
-
 #sobre-inicio{
     text-align: center;
     padding-bottom: 50px;
 }
-
 #foto-pessoal{   
     display: flex;
     align-items: center;
     gap: 40px;
 }
-
 #foto-pessoal-img{
     height: 500px;
     width: auto;
@@ -173,7 +157,6 @@ spam{
     padding: 40px;
     text-align: center;
 }
-
 #habilidades-card{
     display: flex;
     gap: 25px;
@@ -182,7 +165,6 @@ spam{
     overflow: visible;
     margin-top: 40px;
 }
-
 .habilidades-info{
     flex: 1;
     background-color: var(--secondary-color);
@@ -194,27 +176,23 @@ spam{
     box-shadow 0.3s ease, 
     border-color 0.3s ease;
 }
-
 .habilidades-info:hover {
     transform: translateY(-10px);
     box-shadow: var(--principal-color) 0px 12px 24px -10px;
     border-color: var(--principal-color);
 }
-
 .habilidades-info h3{
     text-align: center;
     padding: 20px 0 15px 0;
     font-size: 22px;
     letter-spacing: 3px;
 }
-
 .habilidades-info p {
     font-size: 15px;
     opacity: 0.85;
     line-height: 27px;
     letter-spacing: 1px;
 }
-
 i{
     color: var(--principal-color);
     font-size: 51px;
@@ -225,13 +203,11 @@ i{
     padding: 50px 70px;
     line-height: 32px;
 }
-
 #curso p{
     text-align: none;
     font-size: 16px;
     letter-spacing: 0.5px;
 }
-
 .imagem-faculdade{
     width: 800px;
     display: block;
@@ -248,27 +224,23 @@ footer {
     text-align: center;
     overflow: visible; 
 }
-
 .footer-container {
     max-width: 1140px;
     margin: 0 auto;
     overflow: visible; 
 }
-
 footer h2 {
     font-size: 32px;
     color: var(--principal-color);
     margin-bottom: 15px;
     letter-spacing: 1.5px;
 }
-
 .footer-sub {
     font-size: 18px;
     color: var(--primary-text);
     margin-bottom: 40px;
     opacity: 0.9;
 }
-
 .footer-redes {
     display: flex;
     justify-content: center;
@@ -276,7 +248,6 @@ footer h2 {
     margin-bottom: 40px;
     overflow: visible; 
 }
-
 .rede-link {
     display: flex;
     flex-direction: column;
@@ -286,33 +257,27 @@ footer h2 {
     transition: color 0.3s ease;
     overflow: visible; 
 }
-
 .rede-link img {
     width: 42px; 
     height: 42px;
     transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
 }
-
 .rede-link span {
     font-size: 18px; 
     font-weight: 500;
     letter-spacing: 1px;
 }
-
 .rede-link:hover img {
     transform: translateY(-6px);
 }
-
 .rede-link:hover {
     color: var(--hover-color);
 }
-
 .footer-divider {
     border: 0;
     border-top: 1px solid var(--border-color);
     margin: 30px 0;
 }
-
 .footer-copy {
     font-size: 15px;
     opacity: 0.7;
@@ -320,51 +285,41 @@ footer h2 {
 
 /*—————————— {Responsividade} ——————————*/
 @media (max-width: 768px) {
-
     .container {
         width: 100%;
         padding: 0 20px;
     }
-
     .flex {
         flex-direction: column;
         gap: 15px;
     }
-
     .section-estrutura {
         margin: 90px auto;
         padding: 20px;
         width: 92%;
     }
-
     #estrutura-curso{
         padding: 20px;
     }
-
     #habilidades-card {
         flex-direction: column;
         gap: 20px;
     }
-
     .footer-redes {
         flex-direction: column;
         gap: 30px;
     }
-    
     footer h2 {
         font-size: 27px;
     }
-
     #foto-pessoal {
         flex-direction: column;
         text-align: center;
     }
-
     #foto-pessoal-img{
         width: 100%;
         height: auto;
     }
-
     #logo{
         width: 250px;
     }
